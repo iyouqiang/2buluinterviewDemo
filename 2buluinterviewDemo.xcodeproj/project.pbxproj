@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B72E349A209427D0006EF458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E3499209427D0006EF458 /* AppDelegate.m */; };
+		B72E349D209427D0006EF458 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E349C209427D0006EF458 /* ViewController.m */; };
+		B72E34A0209427D1006EF458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72E349E209427D1006EF458 /* Main.storyboard */; };
+		B72E34A2209427D1006EF458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B72E34A1209427D1006EF458 /* Assets.xcassets */; };
+		B72E34A5209427D1006EF458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72E34A3209427D1006EF458 /* LaunchScreen.storyboard */; };
+		B72E34A8209427D1006EF458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34A7209427D1006EF458 /* main.m */; };
+		B72E34B520945E49006EF458 /* IVHttpRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34B420945E49006EF458 /* IVHttpRequestManager.m */; };
+		B72E34B8209460C1006EF458 /* IVBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34B7209460C1006EF458 /* IVBaseViewController.m */; };
+		B72E34BF209467CB006EF458 /* IVDoubanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34BE209467CB006EF458 /* IVDoubanViewController.m */; };
+		B72E34C2209467F9006EF458 /* IVDoubanView.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34C1209467F9006EF458 /* IVDoubanView.m */; };
+		B72E34C520946E29006EF458 /* IVNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34C420946E29006EF458 /* IVNavigationViewController.m */; };
+		B72E34C82094745A006EF458 /* IVHttpRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34C72094745A006EF458 /* IVHttpRequestTool.m */; };
+		B72E34CB209475EB006EF458 /* IVDoubanTableAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34CA209475EB006EF458 /* IVDoubanTableAdapter.m */; };
+		B72E34CE20947FF2006EF458 /* IVTop250ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34CD20947FF2006EF458 /* IVTop250ViewController.m */; };
+		B72E34D120948003006EF458 /* IVHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34D020948003006EF458 /* IVHotViewController.m */; };
+		B72E34D42094803C006EF458 /* IVComingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34D32094803C006EF458 /* IVComingViewController.m */; };
+		B72E34D7209480BB006EF458 /* IVSoraMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34D6209480BB006EF458 /* IVSoraMainViewController.m */; };
+		B72E34DA209480DF006EF458 /* IVSoraPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34D9209480DF006EF458 /* IVSoraPhotoViewController.m */; };
+		B72E34DD209480F2006EF458 /* IVTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34DC209480F2006EF458 /* IVTestViewController.m */; };
+		B72E34E020948104006EF458 /* IVCityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34DF20948104006EF458 /* IVCityListViewController.m */; };
+		B72E34E620948189006EF458 /* NSObject+IVLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34E520948188006EF458 /* NSObject+IVLoading.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B72E3495209427D0006EF458 /* 2buluinterviewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2buluinterviewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72E3498209427D0006EF458 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B72E3499209427D0006EF458 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B72E349B209427D0006EF458 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B72E349C209427D0006EF458 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B72E349F209427D1006EF458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B72E34A1209427D1006EF458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B72E34A4209427D1006EF458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B72E34A6209427D1006EF458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72E34A7209427D1006EF458 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B72E34B120945D22006EF458 /* IVStyleSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVStyleSheet.h; sourceTree = "<group>"; };
+		B72E34B220945D3B006EF458 /* IVDefinitionMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVDefinitionMacro.h; sourceTree = "<group>"; };
+		B72E34B320945E49006EF458 /* IVHttpRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVHttpRequestManager.h; sourceTree = "<group>"; };
+		B72E34B420945E49006EF458 /* IVHttpRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVHttpRequestManager.m; sourceTree = "<group>"; };
+		B72E34B6209460C1006EF458 /* IVBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVBaseViewController.h; sourceTree = "<group>"; };
+		B72E34B7209460C1006EF458 /* IVBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVBaseViewController.m; sourceTree = "<group>"; };
+		B72E34BD209467CB006EF458 /* IVDoubanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVDoubanViewController.h; sourceTree = "<group>"; };
+		B72E34BE209467CB006EF458 /* IVDoubanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVDoubanViewController.m; sourceTree = "<group>"; };
+		B72E34C0209467F9006EF458 /* IVDoubanView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVDoubanView.h; sourceTree = "<group>"; };
+		B72E34C1209467F9006EF458 /* IVDoubanView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVDoubanView.m; sourceTree = "<group>"; };
+		B72E34C320946E29006EF458 /* IVNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVNavigationViewController.h; sourceTree = "<group>"; };
+		B72E34C420946E29006EF458 /* IVNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVNavigationViewController.m; sourceTree = "<group>"; };
+		B72E34C62094745A006EF458 /* IVHttpRequestTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVHttpRequestTool.h; sourceTree = "<group>"; };
+		B72E34C72094745A006EF458 /* IVHttpRequestTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVHttpRequestTool.m; sourceTree = "<group>"; };
+		B72E34C9209475EB006EF458 /* IVDoubanTableAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVDoubanTableAdapter.h; sourceTree = "<group>"; };
+		B72E34CA209475EB006EF458 /* IVDoubanTableAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVDoubanTableAdapter.m; sourceTree = "<group>"; };
+		B72E34CC20947FF2006EF458 /* IVTop250ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVTop250ViewController.h; sourceTree = "<group>"; };
+		B72E34CD20947FF2006EF458 /* IVTop250ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVTop250ViewController.m; sourceTree = "<group>"; };
+		B72E34CF20948003006EF458 /* IVHotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVHotViewController.h; sourceTree = "<group>"; };
+		B72E34D020948003006EF458 /* IVHotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVHotViewController.m; sourceTree = "<group>"; };
+		B72E34D22094803C006EF458 /* IVComingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVComingViewController.h; sourceTree = "<group>"; };
+		B72E34D32094803C006EF458 /* IVComingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVComingViewController.m; sourceTree = "<group>"; };
+		B72E34D5209480BB006EF458 /* IVSoraMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVSoraMainViewController.h; sourceTree = "<group>"; };
+		B72E34D6209480BB006EF458 /* IVSoraMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVSoraMainViewController.m; sourceTree = "<group>"; };
+		B72E34D8209480DF006EF458 /* IVSoraPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVSoraPhotoViewController.h; sourceTree = "<group>"; };
+		B72E34D9209480DF006EF458 /* IVSoraPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVSoraPhotoViewController.m; sourceTree = "<group>"; };
+		B72E34DB209480F2006EF458 /* IVTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVTestViewController.h; sourceTree = "<group>"; };
+		B72E34DC209480F2006EF458 /* IVTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVTestViewController.m; sourceTree = "<group>"; };
+		B72E34DE20948104006EF458 /* IVCityListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVCityListViewController.h; sourceTree = "<group>"; };
+		B72E34DF20948104006EF458 /* IVCityListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVCityListViewController.m; sourceTree = "<group>"; };
+		B72E34E420948188006EF458 /* NSObject+IVLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+IVLoading.h"; sourceTree = "<group>"; };
+		B72E34E520948188006EF458 /* NSObject+IVLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IVLoading.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B72E3492209427D0006EF458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B72E348C209427D0006EF458 = {
+			isa = PBXGroup;
+			children = (
+				B72E3497209427D0006EF458 /* 2buluinterviewDemo */,
+				B72E3496209427D0006EF458 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B72E3496209427D0006EF458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B72E3495209427D0006EF458 /* 2buluinterviewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B72E3497209427D0006EF458 /* 2buluinterviewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B72E34B020945C78006EF458 /* IVMainModule */,
+				B72E34AF20945C52006EF458 /* IVUnility */,
+				B72E34AE20945C13006EF458 /* IVHeaderDefinition */,
+				B72E3498209427D0006EF458 /* AppDelegate.h */,
+				B72E3499209427D0006EF458 /* AppDelegate.m */,
+				B72E349B209427D0006EF458 /* ViewController.h */,
+				B72E349C209427D0006EF458 /* ViewController.m */,
+				B72E349E209427D1006EF458 /* Main.storyboard */,
+				B72E34A1209427D1006EF458 /* Assets.xcassets */,
+				B72E34A3209427D1006EF458 /* LaunchScreen.storyboard */,
+				B72E34A6209427D1006EF458 /* Info.plist */,
+				B72E34A7209427D1006EF458 /* main.m */,
+			);
+			path = 2buluinterviewDemo;
+			sourceTree = "<group>";
+		};
+		B72E34AE20945C13006EF458 /* IVHeaderDefinition */ = {
+			isa = PBXGroup;
+			children = (
+				B72E34B120945D22006EF458 /* IVStyleSheet.h */,
+				B72E34B220945D3B006EF458 /* IVDefinitionMacro.h */,
+			);
+			path = IVHeaderDefinition;
+			sourceTree = "<group>";
+		};
+		B72E34AF20945C52006EF458 /* IVUnility */ = {
+			isa = PBXGroup;
+			children = (
+				B72E34B320945E49006EF458 /* IVHttpRequestManager.h */,
+				B72E34B420945E49006EF458 /* IVHttpRequestManager.m */,
+				B72E34C62094745A006EF458 /* IVHttpRequestTool.h */,
+				B72E34C72094745A006EF458 /* IVHttpRequestTool.m */,
+				B72E34E420948188006EF458 /* NSObject+IVLoading.h */,
+				B72E34E520948188006EF458 /* NSObject+IVLoading.m */,
+			);
+			path = IVUnility;
+			sourceTree = "<group>";
+		};
+		B72E34B020945C78006EF458 /* IVMainModule */ = {
+			isa = PBXGroup;
+			children = (
+				B72E34BA209465C8006EF458 /* IVDoubanModule */,
+				B72E34B920946598006EF458 /* IVBaseClasses */,
+			);
+			path = IVMainModule;
+			sourceTree = "<group>";
+		};
+		B72E34B920946598006EF458 /* IVBaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B72E34B6209460C1006EF458 /* IVBaseViewController.h */,
+				B72E34B7209460C1006EF458 /* IVBaseViewController.m */,
+				B72E34C320946E29006EF458 /* IVNavigationViewController.h */,
+				B72E34C420946E29006EF458 /* IVNavigationViewController.m */,
+			);
+			path = IVBaseClasses;
+			sourceTree = "<group>";
+		};
+		B72E34BA209465C8006EF458 /* IVDoubanModule */ = {
+			isa = PBXGroup;
+			children = (
+				B72E34BC20946656006EF458 /* IVDoubanView */,
+				B72E34BB20946645006EF458 /* IVDoubanController */,
+			);
+			path = IVDoubanModule;
+			sourceTree = "<group>";
+		};
+		B72E34BB20946645006EF458 /* IVDoubanController */ = {
+			isa = PBXGroup;
+			children = (
+				B72E34BD209467CB006EF458 /* IVDoubanViewController.h */,
+				B72E34BE209467CB006EF458 /* IVDoubanViewController.m */,
+				B72E34CC20947FF2006EF458 /* IVTop250ViewController.h */,
+				B72E34CD20947FF2006EF458 /* IVTop250ViewController.m */,
+				B72E34CF20948003006EF458 /* IVHotViewController.h */,
+				B72E34D020948003006EF458 /* IVHotViewController.m */,
+				B72E34D22094803C006EF458 /* IVComingViewController.h */,
+				B72E34D32094803C006EF458 /* IVComingViewController.m */,
+				B72E34D5209480BB006EF458 /* IVSoraMainViewController.h */,
+				B72E34D6209480BB006EF458 /* IVSoraMainViewController.m */,
+				B72E34D8209480DF006EF458 /* IVSoraPhotoViewController.h */,
+				B72E34D9209480DF006EF458 /* IVSoraPhotoViewController.m */,
+				B72E34DB209480F2006EF458 /* IVTestViewController.h */,
+				B72E34DC209480F2006EF458 /* IVTestViewController.m */,
+				B72E34DE20948104006EF458 /* IVCityListViewController.h */,
+				B72E34DF20948104006EF458 /* IVCityListViewController.m */,
+			);
+			path = IVDoubanController;
+			sourceTree = "<group>";
+		};
+		B72E34BC20946656006EF458 /* IVDoubanView */ = {
+			isa = PBXGroup;
+			children = (
+				B72E34C0209467F9006EF458 /* IVDoubanView.h */,
+				B72E34C1209467F9006EF458 /* IVDoubanView.m */,
+				B72E34C9209475EB006EF458 /* IVDoubanTableAdapter.h */,
+				B72E34CA209475EB006EF458 /* IVDoubanTableAdapter.m */,
+			);
+			path = IVDoubanView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B72E3494209427D0006EF458 /* 2buluinterviewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72E34AB209427D1006EF458 /* Build configuration list for PBXNativeTarget "2buluinterviewDemo" */;
+			buildPhases = (
+				B72E3491209427D0006EF458 /* Sources */,
+				B72E3492209427D0006EF458 /* Frameworks */,
+				B72E3493209427D0006EF458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2buluinterviewDemo;
+			productName = 2buluinterviewDemo;
+			productReference = B72E3495209427D0006EF458 /* 2buluinterviewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B72E348D209427D0006EF458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = gongyouqiang;
+				TargetAttributes = {
+					B72E3494209427D0006EF458 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = B72E3490209427D0006EF458 /* Build configuration list for PBXProject "2buluinterviewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B72E348C209427D0006EF458;
+			productRefGroup = B72E3496209427D0006EF458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B72E3494209427D0006EF458 /* 2buluinterviewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B72E3493209427D0006EF458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72E34A5209427D1006EF458 /* LaunchScreen.storyboard in Resources */,
+				B72E34A2209427D1006EF458 /* Assets.xcassets in Resources */,
+				B72E34A0209427D1006EF458 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B72E3491209427D0006EF458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72E34B520945E49006EF458 /* IVHttpRequestManager.m in Sources */,
+				B72E349D209427D0006EF458 /* ViewController.m in Sources */,
+				B72E34CB209475EB006EF458 /* IVDoubanTableAdapter.m in Sources */,
+				B72E34A8209427D1006EF458 /* main.m in Sources */,
+				B72E34CE20947FF2006EF458 /* IVTop250ViewController.m in Sources */,
+				B72E34C2209467F9006EF458 /* IVDoubanView.m in Sources */,
+				B72E34DA209480DF006EF458 /* IVSoraPhotoViewController.m in Sources */,
+				B72E34C82094745A006EF458 /* IVHttpRequestTool.m in Sources */,
+				B72E34E620948189006EF458 /* NSObject+IVLoading.m in Sources */,
+				B72E349A209427D0006EF458 /* AppDelegate.m in Sources */,
+				B72E34C520946E29006EF458 /* IVNavigationViewController.m in Sources */,
+				B72E34D7209480BB006EF458 /* IVSoraMainViewController.m in Sources */,
+				B72E34D120948003006EF458 /* IVHotViewController.m in Sources */,
+				B72E34BF209467CB006EF458 /* IVDoubanViewController.m in Sources */,
+				B72E34D42094803C006EF458 /* IVComingViewController.m in Sources */,
+				B72E34E020948104006EF458 /* IVCityListViewController.m in Sources */,
+				B72E34B8209460C1006EF458 /* IVBaseViewController.m in Sources */,
+				B72E34DD209480F2006EF458 /* IVTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B72E349E209427D1006EF458 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72E349F209427D1006EF458 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B72E34A3209427D1006EF458 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72E34A4209427D1006EF458 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B72E34A9209427D1006EF458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B72E34AA209427D1006EF458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B72E34AC209427D1006EF458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C7U5N4698Q;
+				INFOPLIST_FILE = 2buluinterviewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecaray.treasuremap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c654150b-f8dc-4cf1-b967-dde4e98a2477";
+				PROVISIONING_PROFILE_SPECIFIER = EcarayDebug;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B72E34AD209427D1006EF458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3U8T4TMCXE;
+				INFOPLIST_FILE = 2buluinterviewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecaray.treasuremap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6553fd94-13de-4230-87ea-2743a1f9a082";
+				PROVISIONING_PROFILE_SPECIFIER = EcarayTreasureMapDistribution;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B72E3490209427D0006EF458 /* Build configuration list for PBXProject "2buluinterviewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72E34A9209427D1006EF458 /* Debug */,
+				B72E34AA209427D1006EF458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72E34AB209427D1006EF458 /* Build configuration list for PBXNativeTarget "2buluinterviewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72E34AC209427D1006EF458 /* Debug */,
+				B72E34AD209427D1006EF458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B72E348D209427D0006EF458 /* Project object */;
+}
