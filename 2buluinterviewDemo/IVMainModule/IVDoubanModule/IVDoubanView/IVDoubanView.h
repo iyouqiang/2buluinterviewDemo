@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+typedef  void (^ToucheCellBlock)(NSInteger index, BOOL isPresent);
+
 @interface IVDoubanView : UIView
+
+@property (nonatomic,copy) ToucheCellBlock touchBlcok;
 
 @end

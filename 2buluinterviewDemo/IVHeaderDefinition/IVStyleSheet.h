@@ -18,4 +18,15 @@
 /** 橘色 */
 #define Color_Orange  [UIColor orangeColor]
 
+/** 背景色 */
+#define Color_BackgroundColor  ([UIColor colorWithRed:247.0f/255 green:247.0f/255 blue:247.0f/255 alpha:1.0])
+
+/** 图片填充色 */
+#define Color_ImgFillColor ([UIColor colorWithRed:65.0/255.0 green:65.0/255.0 blue:65.0/255.0 alpha:1])
+
+/** 字体样式 */
+#define Font_Normal(value) ([UIFont fontWithName:@"PingFangSC-Regular" size:value])
+
+#define Font_Bold(value) ([UIFont fontWithName:@"PingFangSC-Semibold" size:value])
+
 #endif /* IVStyleSheet_h */

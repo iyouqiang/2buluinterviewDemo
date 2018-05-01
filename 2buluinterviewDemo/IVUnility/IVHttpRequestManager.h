@@ -7,10 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "IVHttpRequestTool.h"
 
 @interface IVHttpRequestManager : NSObject
 
-/** 数据请求 */
++ (instancetype)shareRequestManager;
 
+/** get/post 请求 */
++ (void)requestHttpMethod:(HTTPREQUESTMETHOD)httpMethod
+                  requestURL:(NSString *)requestURL
+               parameters:(NSMutableDictionary *)parameters
+           completeHander:(RequestcompleteHander)completeHander;
+
+/** 加载网络图片 */
++ (void)requestImageData:(NSString *)requestURL loadprogress:(DownloadProgressBlock)loadProgressBlock completeHander:(RequestcompleteHander)completeHander;
 
 @end

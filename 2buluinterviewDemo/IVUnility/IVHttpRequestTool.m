@@ -36,4 +36,11 @@
     return nil;
 }
 
++ (NSString *)urlEncode:(NSString *)requesturl;
+{
+    NSCharacterSet *encodeUrlSet = [NSCharacterSet URLQueryAllowedCharacterSet];
+    NSString *encodeUrl = [requesturl stringByAddingPercentEncodingWithAllowedCharacters:encodeUrlSet];
+    return encodeUrl;
+}
+
 @end

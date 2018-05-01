@@ -7,14 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 typedef NS_ENUM(NSInteger, HTTPREQUESTMETHOD)
 {
     HTTP_POST,
     HTTP_GET
 };
 
-typedef void(^RequestcompleteHander)(id resultValue, NSString *errorInfo);
+typedef void(^RequestcompleteHander)(id resultValue, NSError *errorInfo);
+typedef void(^DownloadProgressBlock)(CGFloat downloadProgress);
 
 @interface IVHttpRequestTool : NSObject
 
@@ -22,6 +23,6 @@ typedef void(^RequestcompleteHander)(id resultValue, NSString *errorInfo);
 + (NSString *)sortparameter:(NSDictionary *)parameter;
 
 /** urlcode */
-
++ (NSString *)urlEncode:(NSString *)requesturl;
 
 @end

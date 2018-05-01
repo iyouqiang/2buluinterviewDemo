@@ -27,7 +27,16 @@
 		B72E34DA209480DF006EF458 /* IVSoraPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34D9209480DF006EF458 /* IVSoraPhotoViewController.m */; };
 		B72E34DD209480F2006EF458 /* IVTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34DC209480F2006EF458 /* IVTestViewController.m */; };
 		B72E34E020948104006EF458 /* IVCityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34DF20948104006EF458 /* IVCityListViewController.m */; };
-		B72E34E620948189006EF458 /* NSObject+IVLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E34E520948188006EF458 /* NSObject+IVLoading.m */; };
+		D21C4C212097EEAD004DB8D1 /* IVCollapseAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D21C4C202097EEAD004DB8D1 /* IVCollapseAnimator.m */; };
+		D21C4C2420980DED004DB8D1 /* UIImageView+IVLoadURLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D21C4C2320980DED004DB8D1 /* UIImageView+IVLoadURLImage.m */; };
+		D2DAAD9F20960A8200A5AE6B /* favicon_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DAAD9D20954FCB00A5AE6B /* favicon_32x32.png */; };
+		D2DAADA020960A8400A5AE6B /* placeHolderImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DAAD9E20954FCB00A5AE6B /* placeHolderImage.jpg */; };
+		D2DAADA420961C4700A5AE6B /* IVSimpleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DAADA220961C4700A5AE6B /* IVSimpleTableViewCell.m */; };
+		D2DAADA520961C4700A5AE6B /* IVSimpleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DAADA320961C4700A5AE6B /* IVSimpleTableViewCell.xib */; };
+		D2DAADA920961CE000A5AE6B /* IVDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DAADA720961CE000A5AE6B /* IVDetailTableViewCell.m */; };
+		D2DAADAA20961CE000A5AE6B /* IVDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DAADA820961CE000A5AE6B /* IVDetailTableViewCell.xib */; };
+		D2DAADAD2096CFFE00A5AE6B /* IVHttpRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DAADAC2096CFFD00A5AE6B /* IVHttpRequestData.m */; };
+		D2DAADB02097560F00A5AE6B /* IVBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DAADAF2097560F00A5AE6B /* IVBaseTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,8 +80,22 @@
 		B72E34DC209480F2006EF458 /* IVTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVTestViewController.m; sourceTree = "<group>"; };
 		B72E34DE20948104006EF458 /* IVCityListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVCityListViewController.h; sourceTree = "<group>"; };
 		B72E34DF20948104006EF458 /* IVCityListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVCityListViewController.m; sourceTree = "<group>"; };
-		B72E34E420948188006EF458 /* NSObject+IVLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+IVLoading.h"; sourceTree = "<group>"; };
-		B72E34E520948188006EF458 /* NSObject+IVLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IVLoading.m"; sourceTree = "<group>"; };
+		D21C4C1F2097EEAD004DB8D1 /* IVCollapseAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVCollapseAnimator.h; sourceTree = "<group>"; };
+		D21C4C202097EEAD004DB8D1 /* IVCollapseAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVCollapseAnimator.m; sourceTree = "<group>"; };
+		D21C4C2220980DED004DB8D1 /* UIImageView+IVLoadURLImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+IVLoadURLImage.h"; sourceTree = "<group>"; };
+		D21C4C2320980DED004DB8D1 /* UIImageView+IVLoadURLImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+IVLoadURLImage.m"; sourceTree = "<group>"; };
+		D2DAAD9D20954FCB00A5AE6B /* favicon_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favicon_32x32.png; sourceTree = "<group>"; };
+		D2DAAD9E20954FCB00A5AE6B /* placeHolderImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeHolderImage.jpg; sourceTree = "<group>"; };
+		D2DAADA120961C4700A5AE6B /* IVSimpleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVSimpleTableViewCell.h; sourceTree = "<group>"; };
+		D2DAADA220961C4700A5AE6B /* IVSimpleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVSimpleTableViewCell.m; sourceTree = "<group>"; };
+		D2DAADA320961C4700A5AE6B /* IVSimpleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IVSimpleTableViewCell.xib; sourceTree = "<group>"; };
+		D2DAADA620961CE000A5AE6B /* IVDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVDetailTableViewCell.h; sourceTree = "<group>"; };
+		D2DAADA720961CE000A5AE6B /* IVDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVDetailTableViewCell.m; sourceTree = "<group>"; };
+		D2DAADA820961CE000A5AE6B /* IVDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IVDetailTableViewCell.xib; sourceTree = "<group>"; };
+		D2DAADAB2096CFFD00A5AE6B /* IVHttpRequestData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVHttpRequestData.h; sourceTree = "<group>"; };
+		D2DAADAC2096CFFD00A5AE6B /* IVHttpRequestData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVHttpRequestData.m; sourceTree = "<group>"; };
+		D2DAADAE2097560F00A5AE6B /* IVBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVBaseTableView.h; sourceTree = "<group>"; };
+		D2DAADAF2097560F00A5AE6B /* IVBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVBaseTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +136,8 @@
 				B72E349B209427D0006EF458 /* ViewController.h */,
 				B72E349C209427D0006EF458 /* ViewController.m */,
 				B72E349E209427D1006EF458 /* Main.storyboard */,
+				D2DAAD9D20954FCB00A5AE6B /* favicon_32x32.png */,
+				D2DAAD9E20954FCB00A5AE6B /* placeHolderImage.jpg */,
 				B72E34A1209427D1006EF458 /* Assets.xcassets */,
 				B72E34A3209427D1006EF458 /* LaunchScreen.storyboard */,
 				B72E34A6209427D1006EF458 /* Info.plist */,
@@ -137,8 +162,10 @@
 				B72E34B420945E49006EF458 /* IVHttpRequestManager.m */,
 				B72E34C62094745A006EF458 /* IVHttpRequestTool.h */,
 				B72E34C72094745A006EF458 /* IVHttpRequestTool.m */,
-				B72E34E420948188006EF458 /* NSObject+IVLoading.h */,
-				B72E34E520948188006EF458 /* NSObject+IVLoading.m */,
+				D2DAADAB2096CFFD00A5AE6B /* IVHttpRequestData.h */,
+				D2DAADAC2096CFFD00A5AE6B /* IVHttpRequestData.m */,
+				D21C4C2220980DED004DB8D1 /* UIImageView+IVLoadURLImage.h */,
+				D21C4C2320980DED004DB8D1 /* UIImageView+IVLoadURLImage.m */,
 			);
 			path = IVUnility;
 			sourceTree = "<group>";
@@ -159,6 +186,8 @@
 				B72E34B7209460C1006EF458 /* IVBaseViewController.m */,
 				B72E34C320946E29006EF458 /* IVNavigationViewController.h */,
 				B72E34C420946E29006EF458 /* IVNavigationViewController.m */,
+				D2DAADAE2097560F00A5AE6B /* IVBaseTableView.h */,
+				D2DAADAF2097560F00A5AE6B /* IVBaseTableView.m */,
 			);
 			path = IVBaseClasses;
 			sourceTree = "<group>";
@@ -202,6 +231,14 @@
 				B72E34C1209467F9006EF458 /* IVDoubanView.m */,
 				B72E34C9209475EB006EF458 /* IVDoubanTableAdapter.h */,
 				B72E34CA209475EB006EF458 /* IVDoubanTableAdapter.m */,
+				D2DAADA120961C4700A5AE6B /* IVSimpleTableViewCell.h */,
+				D2DAADA220961C4700A5AE6B /* IVSimpleTableViewCell.m */,
+				D2DAADA320961C4700A5AE6B /* IVSimpleTableViewCell.xib */,
+				D2DAADA620961CE000A5AE6B /* IVDetailTableViewCell.h */,
+				D2DAADA720961CE000A5AE6B /* IVDetailTableViewCell.m */,
+				D2DAADA820961CE000A5AE6B /* IVDetailTableViewCell.xib */,
+				D21C4C1F2097EEAD004DB8D1 /* IVCollapseAnimator.h */,
+				D21C4C202097EEAD004DB8D1 /* IVCollapseAnimator.m */,
 			);
 			path = IVDoubanView;
 			sourceTree = "<group>";
@@ -265,8 +302,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B72E34A5209427D1006EF458 /* LaunchScreen.storyboard in Resources */,
+				D2DAADAA20961CE000A5AE6B /* IVDetailTableViewCell.xib in Resources */,
 				B72E34A2209427D1006EF458 /* Assets.xcassets in Resources */,
+				D2DAADA520961C4700A5AE6B /* IVSimpleTableViewCell.xib in Resources */,
+				D2DAADA020960A8400A5AE6B /* placeHolderImage.jpg in Resources */,
 				B72E34A0209427D1006EF458 /* Main.storyboard in Resources */,
+				D2DAAD9F20960A8200A5AE6B /* favicon_32x32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,14 +319,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B72E34B520945E49006EF458 /* IVHttpRequestManager.m in Sources */,
+				D21C4C2420980DED004DB8D1 /* UIImageView+IVLoadURLImage.m in Sources */,
+				D2DAADAD2096CFFE00A5AE6B /* IVHttpRequestData.m in Sources */,
 				B72E349D209427D0006EF458 /* ViewController.m in Sources */,
 				B72E34CB209475EB006EF458 /* IVDoubanTableAdapter.m in Sources */,
 				B72E34A8209427D1006EF458 /* main.m in Sources */,
 				B72E34CE20947FF2006EF458 /* IVTop250ViewController.m in Sources */,
 				B72E34C2209467F9006EF458 /* IVDoubanView.m in Sources */,
 				B72E34DA209480DF006EF458 /* IVSoraPhotoViewController.m in Sources */,
+				D2DAADA920961CE000A5AE6B /* IVDetailTableViewCell.m in Sources */,
 				B72E34C82094745A006EF458 /* IVHttpRequestTool.m in Sources */,
-				B72E34E620948189006EF458 /* NSObject+IVLoading.m in Sources */,
+				D2DAADA420961C4700A5AE6B /* IVSimpleTableViewCell.m in Sources */,
 				B72E349A209427D0006EF458 /* AppDelegate.m in Sources */,
 				B72E34C520946E29006EF458 /* IVNavigationViewController.m in Sources */,
 				B72E34D7209480BB006EF458 /* IVSoraMainViewController.m in Sources */,
@@ -295,6 +339,8 @@
 				B72E34E020948104006EF458 /* IVCityListViewController.m in Sources */,
 				B72E34B8209460C1006EF458 /* IVBaseViewController.m in Sources */,
 				B72E34DD209480F2006EF458 /* IVTestViewController.m in Sources */,
+				D21C4C212097EEAD004DB8D1 /* IVCollapseAnimator.m in Sources */,
+				D2DAADB02097560F00A5AE6B /* IVBaseTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecaray.treasuremap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c654150b-f8dc-4cf1-b967-dde4e98a2477";
+				PROVISIONING_PROFILE = "40102f4f-ae57-41f0-8f37-a2cb525f702e";
 				PROVISIONING_PROFILE_SPECIFIER = EcarayDebug;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

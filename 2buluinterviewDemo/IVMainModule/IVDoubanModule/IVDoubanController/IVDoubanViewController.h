@@ -10,6 +10,6 @@
 
 #import "IVBaseViewController.h"
 
-@interface IVDoubanViewController : IVBaseViewController
+@interface IVDoubanViewController : IVBaseViewController<UIViewControllerTransitioningDelegate>
 
 @end

@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "IVStyleSheet.h"
+#import "IVDefinitionMacro.h"
+#import "IVNavigationViewController.h"
+#import "IVHttpRequestData.h"
+#import "IVBaseTableView.h"
 
 @interface IVBaseViewController : UIViewController
 
-/** 右侧添加导航栏按钮 */
+/** 导航栏  右侧添加按钮 */
 - (UIButton *)addrightNavigationItemtitle:(NSString *)title textColor:(UIColor*)textColor clickCallBack:(void(^)(void))clickCallBackBlock;
+
+/** 导航栏  左侧添加按钮 */
+- (UIButton *)addLeftNavigationItemtitle:(NSString *)title textColor:(UIColor*)textColor clickCallBack:(void(^)(void))clickCallBackBlock;
 
 @end

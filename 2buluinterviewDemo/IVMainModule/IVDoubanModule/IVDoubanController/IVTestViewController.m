@@ -17,6 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"测试VC";
+    
+    IVWeakSelf(self);
+    [self addLeftNavigationItemtitle:@"关闭" textColor:Color_BluishViolet clickCallBack:^{
+        IVStrongSelf(self);
+        
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }];
+    
+    UILabel *descriptionL = [[UILabel alloc] initWithFrame:CGRectMake(0,  0, kSCREENWIDTH, 40.0)];
+    descriptionL.center = self.view.center;
+    descriptionL.textAlignment = NSTextAlignmentCenter;
+    descriptionL.font = Font_Normal(18);
+    descriptionL.textColor = Color_Green;
+    descriptionL.text = @"我用来测试";
+    [self.view addSubview:descriptionL];
 }
 
 - (void)didReceiveMemoryWarning {

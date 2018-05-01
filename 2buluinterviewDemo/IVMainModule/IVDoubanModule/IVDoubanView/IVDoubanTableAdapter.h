@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IVDoubanTableAdapter : UITableView
+@interface IVDoubanTableAdapter : NSObject<UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic,strong) NSMutableArray* dataArray;
+
+@property (nonatomic,assign) id delegate;
 
 @end

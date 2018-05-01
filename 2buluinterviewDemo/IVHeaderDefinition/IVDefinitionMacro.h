@@ -9,6 +9,8 @@
 #ifndef IVDefinitionMacro_h
 #define IVDefinitionMacro_h
 
+#import "IVStyleSheet.h"
+
 /** 屏幕适配 */
 #define kDeviceiPhoneX \
 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? \
@@ -21,9 +23,11 @@ CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].si
 #define kSCREENWIDTH  [[UIScreen mainScreen] bounds].size.width
 #define kSCREEN_SIZE  [UIScreen mainScreen].bounds.size
 
+#define kSCREENASPECT(value)  (kSCREENWIDTH*(value)/320.0)
+
 /** 强弱引用 */
-#define ECWeakSelf(type)    __weak typeof(type) weak##type = type;
-#define ECStrongSelf(type)  __strong typeof(type) type = weak##type;
+#define IVWeakSelf(type)    __weak typeof(type) weak##type = type;
+#define IVStrongSelf(type)  __strong typeof(type) type = weak##type;
 
 /** NSlog定义 */
 #ifdef DEBUG
