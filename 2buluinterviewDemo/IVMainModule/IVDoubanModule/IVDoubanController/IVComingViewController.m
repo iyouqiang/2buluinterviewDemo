@@ -57,7 +57,6 @@
     [IVHttpRequestData request_comingstart:_adapter.dataArray.count/15 count:15 completeHandle:^(id resultValue, NSString *errorInfo) {
        
         IVStrongSelf(self);
-        
         if (errorInfo) {
             
             NSLog(@"获取数据失败");

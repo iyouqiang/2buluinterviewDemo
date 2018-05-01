@@ -25,6 +25,7 @@
             
             NSLog(@"__%p__", self);
             self.image = [UIImage imageWithContentsOfFile:resultValue];
+            self.backgroundColor = [UIColor whiteColor];
         });
     }];
 }

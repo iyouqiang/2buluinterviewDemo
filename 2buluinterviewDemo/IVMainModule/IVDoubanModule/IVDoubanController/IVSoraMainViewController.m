@@ -29,6 +29,8 @@
     }];
     
     _soraImageView = [[UIImageView alloc] initWithFrame:CGRectMake((kSCREENWIDTH-250.0)/2.0, kNAVIGATIONHEIGHT, 250, 333)];
+    _soraImageView.image = [UIImage imageNamed:@"placeHolderImage.jpg"];
+    _soraImageView.backgroundColor = Color_ImgFillColor;
     _soraImageView.contentMode = UIViewContentModeScaleAspectFit;
     [self.view addSubview:_soraImageView];
     
